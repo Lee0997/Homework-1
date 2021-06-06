@@ -1,0 +1,120 @@
+/* General element selector for structure*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Controls the header's presentation*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/*This ensures our header and sub-headings at the top of the page display in the correct position and look suitable"*/
+.header h1, .seo {
+    display: inline-block;
+    font-size: 48px;
+    color: #d9dcd6;
+}
+/*This addresses any header/div relationship and applies suitable spacing and style*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*This is another spacing requirement, it specifies a margin to ensure space between our lists*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*This ensures that our hyperlinks look professional and match the theme of our site*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*This is the styling for the main image at the top of the page, which also includes the source*/
+.top-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*A function which enables us to specify the position of an image in our container*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*A function which enables us to specify the position of an image in our container*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*This class effects the sizing of our cards as they are displayed on the site*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/*This controls the styling of our benefits section in the html, ensuring it looks suitable and functions well*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*This is simply a margin for our subheadings*/
+.benefit-lead, .benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/*This effects the color of our text on the right hand side, alongside the subheading's position*/
+.benefit-cost, .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+/*This section effects the spacing between our containers, ensuring the site looks even and presentable*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*This controls the headings in the middle section of our site, ensuring they are clear and look professional*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*This controls the size of the images within the above containers*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+/*Another spacing and styling too for the text within our containers*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*The footer's styling at the bottom of the page, ensures correct spacing and display*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*This is the font size for the footer's text*/
+.footer h2 {
+    font-size: 20px;
+}
